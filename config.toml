@@ -1,0 +1,71 @@
+baseurl = "https://mkehoe.github.io"
+title = "michael kehoe"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "mkehoe"
+
+[params]
+    author = "Michael Kehoe"
+    info = "Software Engineer"
+    description = "Michael Kehoe's personal website"
+    keywords = "blog,developer,personal"
+    avatarurl = "images/avatar.jpg"
+
+    favicon_32 = "/img/favicon-32x32.png"
+    favicon_16 = "/img/favicon-16x16.png"
+
+    footercontent = ""
+
+    colorscheme = "light"
+
+    hidecredits = false
+    hidecopyright = false
+
+    rtl = false
+
+    math = true
+    custom_css = []
+    custom_js = []
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
+    weight = 1
+    url = "https://github.com/mkehoe/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 2
+    url = "https://www.linkedin.com/in/kehoe-michael/"
+[[params.social]]
+    name = "StackOverflow"
+    icon = "fab fa-stack-overflow"
+    weight = 4
+    url = "https://stackoverflow.com/users/6347620/mike"
+[[params.social]]
+    name = "RSS"
+    icon = "fas fa-rss"
+    weight = 6
+    url = "https://mkehoe.github.io/index.xml"
+    rel = "alternate"
+    type = "application/rss+xml"
+
+# Menu links
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "/posts/"
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "/about/"
