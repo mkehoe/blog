@@ -1,8 +1,8 @@
-+++
-date = "2020-01-26"
-title = "Benchmarking .Net Core Platforms for Image Processing"
-slug = "benchmarking-net-core-platforms-image-processing"
-tags = [
+---
+date: "2020-06-09"
+title: "Benchmarking .Net Core Platforms for Image Processing"
+slug: "benchmarking-net-core-platforms-image-processing"
+tags: [
     "dotnet core",
     "image processing",
     "web api",
@@ -10,11 +10,11 @@ tags = [
     "windows",
     "docker"
 ]
-categories = [
+categories: [
     "dotnet core"
 ]
-disable_comments = true
-+++
+disable_comments: true
+---
 
 Recently I had to build a CMS that had a web api that handled some image manipulations for the frontend. The project I was working on was already in .Net Core, so with the new cross platform support I wondered about the performance of it.
 
