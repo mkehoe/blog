@@ -54,6 +54,8 @@ Time intervals all in ms:
 
 To mimic more real time behavior of the server, the second benchmarks are collected asyncronously. Ten rounds of 12 requests are simultaneously run. The 12 requests are all submitted in tasks and waited on before the next round is started. 
 
+###### Resize Asynchronous
+
 | Platform    | T1    | T2    | T3   | T4     | T5    | Total  |
 | ----------- | ----- | ----- | ---- | ------ | ----- | ------ |
 | Windows     | 19.34 | 16.55 | 0.94 | 190.33 | 4.96  | 430.83 |
@@ -61,7 +63,7 @@ To mimic more real time behavior of the server, the second benchmarks are collec
 | Docker Mac  | 16.94 | 31.11 | 1.17 | 303.01 | 5.05  | 596.43 |
 | MacOS       | 6.76  | 50.01 | 2.23 | 369.65 | 20.63 | 470.48 |
 
-###### Tile Synchronous
+###### Tile Asynchronous
 
 | Platform    | T1    | T2    | T3   | T4     | T5    | Total  |
 | ----------- | ----- | ----- | ---- | ------ | ----- | ------ |
