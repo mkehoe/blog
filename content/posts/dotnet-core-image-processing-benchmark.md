@@ -76,6 +76,6 @@ To mimic more real time behavior of the server, the second benchmarks are collec
 
 As expected, Windows is the hands-down winner. Dotnet Core uses GDI+ for image manipulation and on Windows it is using the native api. Mac and Linux implementations are using libgdi+, which in this case is suboptimal. 
 
-One oddity is the copy to memstream time (T1) on Windows Docker Linux containers. I suspect it an optimization for WSL2 and that using Hyper-V instead would be more in line with Docker on Mac. This merits future research.
+One oddity is the copy to memstream time (T1) on Windows Docker Linux containers. I suspect it an optimization for WSL2 and that using WSL instead would be more in line with Docker on Mac. This merits future research.
 
 Github links: [Web API](https://github.com/mkehoe/dotnetcore-imageprocessing) and [Benchmark App](https://github.com/mkehoe/benchmark-imageprocessing)
