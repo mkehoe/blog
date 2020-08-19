@@ -13,6 +13,8 @@ pygmentscodefencesguesssyntax = true
 
 disqusShortname = "mkehoe"
 
+googleAnalytics = "UA-175643983-1"
+
 [params]
     author = "Michael Kehoe"
     info = "Software Engineer"
