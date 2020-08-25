@@ -1,4 +1,4 @@
-baseurl = "https://mkehoe.github.io"
+baseurl = "https://mkehoe.dev"
 title = "michael kehoe"
 theme = "hugo-coder"
 languagecode = "en"
@@ -10,8 +10,6 @@ canonifyurls = true
 pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
-
-disqusShortname = "mkehoe"
 
 googleAnalytics = "UA-175643983-1"
 
@@ -58,7 +56,7 @@ googleAnalytics = "UA-175643983-1"
     name = "RSS"
     icon = "fas fa-rss"
     weight = 6
-    url = "https://mkehoe.github.io/index.xml"
+    url = "https://mkehoe.dev/index.xml"
     rel = "alternate"
     type = "application/rss+xml"
 
