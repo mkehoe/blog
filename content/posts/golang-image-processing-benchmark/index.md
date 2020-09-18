@@ -76,9 +76,9 @@ And the asyncronous results:
 
 #### Conclusions
 
-One noticeable difference in implementing the tiling for Go was the required resize before the drawing the image into the new image. In .Net Core with GDI+ this was handled under the hood in a single operation and it appears to be much faster. 
+One noticeable difference in implementing the tiling for Go was the required resize before drawing into the new image. In .Net Core with GDI+ this was handled under the hood in a single operation and it appears to be much faster. 
  
-In comparing the 4 platforms for Go, the synchronous benchmark the Windows implementation is slightly better than the MacOS one and both are better than the docker implementations. This very pronounced in the async testing.
+In comparing the 4 platforms for Go, the synchronous benchmark for the Windows implementation is slightly better than the MacOS one and both are better than the docker implementations. This very pronounced in the async testing.
 
 So far Windows seems to be the fastest platform for both .Net Core and Go, but its doubtful I would ever use it as a production platform for either. Interestingly enough, Go seems to be much faster in the synchronous test case for both Docker platforms, but when the Api is under load the results are completely reversed. Docker is a convenient and popular method for production deployments these days, and it appears Microsoft's recent work to optimize for this scenario has paid off.  
 
